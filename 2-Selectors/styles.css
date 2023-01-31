@@ -1,0 +1,35 @@
+/* Universal Selectors */
+*{
+    font-family: monospace;
+}
+/*Element Selectors--> select all of the type of same element*/
+body{
+    font-size: 22px;
+}
+/* Grouping selectors */
+h1,h2{
+    color:blue;
+}
+p{
+    color: purple;
+}
+/*here we are looking any span tag inside p element */
+ /* p span{ 
+    text-transform: uppercase;
+    background-color: gold;
+} */
+/* We can do this using classes(good practice) */
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* class selector--> can be used more than once with different elements */
+.gray{
+    color: gray;
+}
+/* ID selector--> can't be used multiple time , used in specific purposes */
+#second{
+    font-style: italic;
+}
+/*---> Class selectors have more specificity than element selectors */
