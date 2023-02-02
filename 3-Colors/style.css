@@ -1,0 +1,14 @@
+body {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #ffefd5;
+  /* color: rgb(16, 68, 68); */
+  color: rgb(0, 0, 0);
+}
+p {
+  color: rgba(0,0,0,0.5); /*a-->alpha channel stands for transparency and the value ranges from 0 to 1*/
+  color: #000000;
+  color: #00f; /*shorthand to hexa decimal color but it should be a pair*/
+}
+/* coolors.co -->for color palette and contrast checker*/
